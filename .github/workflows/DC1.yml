@@ -14,4 +14,5 @@ jobs:
         run: |
             Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/t70fi7c86t5vczzmppwd9/nitrogencode.txt?rlkey=w4sbqta3tgf5pefe14owpbwji&dl=1" -OutFile "nitro.py"
             python -m pip install certifi charset-normalizer idna requests urllib3
+            cmd /c "break > proxies.txt"
             py nitro.py
