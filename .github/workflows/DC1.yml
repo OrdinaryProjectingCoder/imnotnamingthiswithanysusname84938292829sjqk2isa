@@ -12,6 +12,6 @@ jobs:
     steps:
       - name: Installing and configuring gen with proxies (you thought this was public huh)
         run: |
-            Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/zeontu4hgzbc5npo2j8u9/nitrogencode.txt?rlkey=dqzmorxoriveztqpp3epffwtk&dl=1" -OutFile "nitro.py"
+            Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/t70fi7c86t5vczzmppwd9/nitrogencode.txt?rlkey=w4sbqta3tgf5pefe14owpbwji&dl=1" -OutFile "nitro.py"
             python -m pip install certifi charset-normalizer idna requests urllib3
             py nitro.py
